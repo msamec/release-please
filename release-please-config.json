@@ -7,7 +7,14 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "initial-version": "0.0.1"
+      "initial-version": "0.0.1",
+      "extra-files": [
+        {
+          "type": "json",
+          "path": "apps/expo/package.json",
+          "jsonpath": "$.version"
+        }
+      ]
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
