@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    types:
+      - opened
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: test
+
+jobs:
+  test:
+    if: |
+      contains(github.event.pull_request.labels.*.name, 'autorelease: pending')
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'TEST'
