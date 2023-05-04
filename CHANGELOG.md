@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/msamec/release-please/compare/v0.1.0...v0.1.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* new ([a0b4d8f](https://github.com/msamec/release-please/commit/a0b4d8fd0cea088581228a02bd622bd0a57147f1))
+
 ## [0.1.0](https://github.com/msamec/release-please/compare/v0.0.1...v0.1.0) (2023-05-04)
 
 
